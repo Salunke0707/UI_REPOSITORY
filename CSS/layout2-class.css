@@ -1,0 +1,153 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body
+{
+    width: 80%;
+    min-height: 100px;
+    /* border: 2px solid#000; */
+    margin: auto;
+}
+.body .header h2
+{
+  padding: 15px;
+   font-size: 2em;
+   color: #330867;
+   font-weight: bold;
+   background-color: #f0edd4;
+   text-align: center;
+}
+/* .main-con-menu
+{
+    width: 100%;
+    min-height: 50px;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.con 
+{
+   color: #330867;
+    font-size: 1.4em;
+    float: left;
+   padding: 10px;
+  
+}
+.menu a
+{
+    padding: 10px;
+    font-size: 1.2em;
+    color: brown;
+    
+}  */
+.navbar
+{
+    display: flex;
+    min-height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #f0edd4;
+    /* border: 1px solid; */
+}
+.logo
+{
+    padding-left: 20px;
+}
+.menu a{
+    padding: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: larger;
+    color: #330867;
+    border-radius: 10px;
+}
+.menu a:hover
+{
+    background-color:#fea1a1;
+    color: #f0edd4;
+}
+.main-con 
+{
+ 
+    display: flex;
+    min-height: 300px;
+    justify-content: space-between;
+   justify-content: space-between;
+   color:#3f2305;
+   /* border: 1px solid; */
+   margin-top: 10px;
+  
+    width: 100%;
+}
+.main-con .article
+{
+    width: 30%;
+    min-height: 300px;
+    /* border: 1px solid#000; */
+    padding: 10px;
+ 
+}
+.main-con .article .section
+{
+    font-size: larger;
+    text-align: center;
+    padding-top: 10px;
+}
+.main-con .article .section h3 
+{
+    padding: 10px;
+}
+.section h3:hover
+{
+   background-color: #fea1a1;
+   color: #330867;
+}
+ .section-1
+{
+  text-align: center;
+  padding: 10px;
+ 
+}
+
+.main-con .aside
+{
+    width: 60%;
+    min-height: 300px;
+
+ 
+ 
+}
+.aside h3
+{
+    font-size: 1.4em;
+    text-align: center;
+    padding: 20px;
+    background-color: #dfd7bf;
+}
+.aside p
+{
+    text-align: justify;
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.0em;
+    
+}
+.footer
+{   padding-top: 15px;
+    width: 100%;
+    min-height: 60px;
+    /* border: 1px solid; */
+    background-color: #f0edd4;
+}
+.footer h4 
+{
+    text-align: center;
+    color: #330867;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+}

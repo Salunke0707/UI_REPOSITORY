@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 60%;
+    min-height: 100px;
+    /* border: 2px solid #000; */
+    margin: auto;
+}
+.header
+{
+ 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   min-height: 60px;
+   position: absolute;
+   /* ^this is use to overlap text from image
+   border: 1px solid; */
+   /* background-color:#e3eeff; */
+}
+.text{
+     position: absolute;
+       /* ^this is use to overlap text from image
+        border: 1px solid; */
+    margin-top: 400px;
+    margin-left: 130px;
+}
+.text h1
+{
+    font-size: 3.2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-seri;
+    padding: 5px;
+}
+.text p
+{
+    text-align: center;
+    padding-bottom: 7px;
+}
+.header .logo
+{
+    padding: 10px;
+    color: #e10d0d;
+}
+.header .menu{
+    margin-left: 380px;
+}
+hr{
+    width: 50px;
+    margin: auto; 
+}
+.header .menu a
+{
+    padding: 10px;
+    text-align: right;
+    text-decoration: none;
+    color: #000;
+}
+.menu a:hover
+{
+   background-color:brown;
+   color: white;
+  
+}
+.navbar
+{
+    width: 100%;
+    min-height: 300px;
+  
+}
+.navbar img{
+    width: 100%;
+    min-height: 100px;
+}
+.section
+{
+    width: 100%;
+    min-height: 300px;
+    margin-top: 40px;
+    /* border: 1px solid; */
+    
+}
+.section .article
+{
+    padding: 20px;
+    text-align: center;
+    color: #e10d0d;
+    font-size: 1.2em;
+}
+
+.section .section1
+{   
+    /* border: 1px solid; */
+    width: 90%;
+    min-height: 280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section .section1 .side1 
+{
+  
+     width: 32%;
+    min-height: 280px;
+}
+.section .section1 .side1 img 
+{
+    width: 100%;
+    min-height: 280px;
+}
+
+.section .section1 .side2 
+{
+   
+    width: 32%;
+    min-height: 280px;
+  
+}
+.section .section1 .side2 img
+{
+   width: 100%;
+   min-height: 280px;
+}
+.section .section1 .side3 
+{
+   
+    width: 32%;
+    min-height: 280px;
+}
+.section .section1 .side3 img
+{
+    width: 100%;
+    min-height: 280px;   
+}
+.main-img-about
+{
+    width: 100%;
+    min-height:350px;
+    /* border: 1px solid#000; */
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-img-about .img4 
+{
+    width: 50%;
+    min-height: 350px;
+    /* border: 1px solid; */
+}
+.img4 img 
+{
+    width: 100%;
+    min-height: 350px;
+}
+.main-img-about .about 
+{
+    width: 50%;
+    min-height: 350px;
+}
+.about h3
+{
+    /* padding-top: 60px;
+    padding-left:160px ; */
+    font-size: 1.5em;
+    font-family:'Times New Roman', Times, serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom:6px ;
+    text-align: center;
+}
+.about hr
+{
+    width: 2em;
+}
+.about p
+{
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;
+}
+.footer
+{
+    width: 100%;
+    min-height: 300px;
+    /* border: 1px solid#000; */
+    align-items: center;
+    background-color:#eaf3f3;
+}
+.footer h1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#e10d0d;
+    padding-top: 40px;
+    font-size: 1.6em;
+    text-align: center;
+   
+}
+.footer h4
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #3a4d39;   
+    text-align: center;
+}
+.footer .box 
+{
+    width: 50%;
+    margin: auto;
+    border: 1px solid#000;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding-top:15px;
+    background-color:white;
+}
+.footer .box a
+{ 
+    color: #3a4d39;
+    padding: 15px;
+    text-decoration: none;
+}
+.footer .box1
+{   
+    width: 13%;
+    margin: auto;
+    border: 1px solid#000;
+    color: #3a4d39; 
+    padding: 10px; 
+}
+.footer .box1 h3 
+{
+    text-align: center;
+}
+.footer .box1:hover 
+{
+    background-color: brown;
+    color: aqua;
+}
+.footer-last 
+{
+    width: 100%;
+    min-height: 150px;
+    /* border:  1px solid #000; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-last .menu2 a
+{
+    padding: 15px;
+    text-decoration: none;
+    color: #e10d0d;
+    font-size: 20px;
+}
+.footer-last .menu2 a:hover 
+{ 
+    background-color:cadetblue;
+    color:black;
+
+}

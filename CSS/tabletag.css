@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .box
+{
+    width: 80%;
+    min-height: 100px;
+    border: 1px solid#000;
+    margin: auto;
+    padding: 10px;
+} */
+table
+{
+    width: 50%;
+    min-height: 200px;
+    margin: auto;
+    box-shadow: 10px 5px 3px gray;
+}
+th 
+{
+    font-size: 1.2em;
+    background-color:#4776e6;
+}
+tr:nth-child(odd)
+{
+    background-color: rgba(216, 216, 18, 0.912);
+}
+tr:hover
+{
+    background-color: #136a8a;
+    color: white;
+}
+table,tr,th,td 
+{
+    border: 1px solid#000;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
