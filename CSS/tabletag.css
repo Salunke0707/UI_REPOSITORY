@@ -24,7 +24,7 @@ th
     font-size: 1.2em;
     background-color:#4776e6;
 }
-tr:nth-child(odd)
+td:nth-child(odd)
 {
     background-color: rgba(216, 216, 18, 0.912);
 }
